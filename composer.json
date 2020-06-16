@@ -1,0 +1,30 @@
+{
+    "name": "trpl2alex14/rfact54",
+    "description": "Interfaces for getting the payment gateway orderBundle (FZ 54 version ffd 1.05); Example of Sberbank implementation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "trpl2alex14",
+            "email": "trpl2alex14@bk.ru"
+        }
+    ],
+    "keywords": [
+        "acquiring",
+        "order-bundle",
+        "sberbank",
+        "payment",
+        "receipt",
+        "fl54",
+        "ffd"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "RFAct54\\": "src/"
+        }
+    }
+}
